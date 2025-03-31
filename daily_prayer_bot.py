@@ -15,8 +15,8 @@ client = Client(account_sid, auth_token)
 
 prayer_schedule = {
     "Monday": {
-        "title": "Overturning the Enemy’s Agenda",
-        "message": "By the blood of Jesus, I overturn every plan... (Isaiah 54:17)"
+        "title": "Overturning Agenda",
+        "message": "By the blood of Jesus, I overturn every plan. Isaiah 54:17"
     },
     "Tuesday": {
         "title": "Releasing Supernatural Increase",
