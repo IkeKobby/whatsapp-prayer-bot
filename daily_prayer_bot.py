@@ -47,12 +47,15 @@ prayer_schedule = {
 today = datetime.today().strftime("%A")
 prayer = prayer_schedule.get(today)
 
+title = prayer["title"]  # Keep this short and plain
+message_body = prayer["message"].replace("*", "").replace("\n", " ").strip()
+
 if prayer:
     message = client.messages.create(
-        from_='whatsapp:+14155238886',
-        to=to_whatsapp,
-        content_sid=content_sid,
-        content_variables=f'{{"1":"{prayer["title"]}", "2":"{prayer["message"]}"}}'
+    from_='whatsapp:+14155238886',
+    to=to_whatsapp,
+    content_sid=content_sid,
+    content_variables=f'{{"1":"{title}", "2":"{message_body}"}}'
     )
     print(f"✅ Sent: {message.sid}")
 else:
