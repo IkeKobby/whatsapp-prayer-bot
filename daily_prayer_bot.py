@@ -69,7 +69,7 @@ if prayer:
             "1": title,
             "2": message_body
         }),
-        media_url=["https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/refs/heads/master/img.png"]
+        media_url=["https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/master/img.png"]
     )
 
     print(f"✅ Prayer sent: {message.sid}")
