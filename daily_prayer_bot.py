@@ -68,6 +68,8 @@ if prayer:
     print(f"CONTENT VARIABLES: {{\"1\":\"{title}\", \"2\":\"{message_body}\"}}")
 
 
+    print("📍 Loaded updated script. Media URL is: https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/master/img.png")
+
     message = client.messages.create(
         from_='whatsapp:+14155238886',
         to=to_whatsapp,
@@ -78,6 +80,7 @@ if prayer:
         }),
         media_url=["https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/master/img.png"]
     )
+
 
     print(f"✅ Prayer sent: {message.sid}")
 else:
