@@ -61,6 +61,13 @@ if prayer:
     title = sanitize_text(prayer["title"])
     message_body = sanitize_text(prayer["message"])
 
+    print("Sending WhatsApp message with:")
+    print(f"FROM: whatsapp:+14155238886")
+    print(f"TO: {to_whatsapp}")
+    print(f"TEMPLATE SID: {content_sid}")
+    print(f"CONTENT VARIABLES: {{\"1\":\"{title}\", \"2\":\"{message_body}\"}}")
+
+
     message = client.messages.create(
         from_='whatsapp:+14155238886',
         to=to_whatsapp,
