@@ -24,32 +24,39 @@ def sanitize_text(text):
 # Daily prayer schedule
 prayer_schedule = {
     "Monday": {
-        "title": "Overturning the Enemy’s Agenda",
-        "message": "By the blood of Jesus, I overturn every plan and advantage the enemy is using against my life, marriage, and family. (Isaiah 54:17)"
+        "title": "🗓 Monday: Overturning the Enemy’s Agenda",
+        "message": "🕊️ “By the blood of Jesus, I overturn every plan, reaction, and advantage the enemy is using against my life, marriage, family, academics, and finances. I nullify it by covenant authority!”\n"
+                   "📖 Isaiah 54:17"
     },
     "Tuesday": {
-        "title": "Releasing Supernatural Increase",
-        "message": "I release increase over my household, academics, life, and marriage. (Deuteronomy 1:11)"
+        "title": "🗓 Tuesday: Releasing Supernatural Increase",
+        "message":  "🌾 “I release the increase of my household, my academic journey, my marriage, and the land I dwell in. I declare divine fruitfulness and favor over all that concerns me.”\n"
+                   "📖 Deuteronomy 1:11"
     },
     "Wednesday": {
-        "title": "Wisdom & Academic Excellence",
-        "message": "I receive divine wisdom, insight, and mental clarity. (Daniel 1:17)"
+        "title": "🗓 Wednesday: Wisdom & Academic Excellence",
+        "message": "🎓 “I receive wisdom, insight, and understanding. My mind is anointed for comprehension, retention, and divine acceleration in all academic matters.”\n"
+                   "📖 Daniel 1:17"
     },
     "Thursday": {
-        "title": "Marital Blessings & Fruitfulness",
-        "message": "I declare peace, joy, and unity in my marriage. (Ecclesiastes 4:12)"
+        "title": "🗓 Thursday: Marital Blessings & Fruitfulness",
+        "message":  "💍 “I declare unity, joy, peace, and fruitfulness in my marriage. The Lord is at the center; we are walking in divine harmony and fulfillment of purpose.”\n"
+                   "📖 Ecclesiastes 4:12"
     },
     "Friday": {
-        "title": "Career Breakthrough",
-        "message": "Father, establish the work of my hands and open doors of favor. (Psalm 90:17)"
+        "title": "🗓 Friday: Career Breakthroughs & Purposeful Work",
+        "message": "📈 “Father, grant me favor, innovation, and open doors in my career. I walk in excellence and impact. My work glorifies You and elevates lives.”\n"
+                   "📖 Psalm 90:17"
     },
     "Saturday": {
-        "title": "Financial Overflow",
-        "message": "I walk in divine provision and wealth with purpose. (Psalm 115:14)"
+        "title": "🗓 Saturday: Financial Overflow & Landed Increase",
+        "message": "💰 “I declare dominion over my finances. I receive overflow, divine provision, and stewardship. The land yields its increase because I am rooted in God.”\n"
+                   "📖 Psalm 115:14"
     },
     "Sunday": {
-        "title": "Protection & Restoration",
-        "message": "My household is covered. I receive restoration and peace. (Joel 2:25)"
+        "title": "🗓 Sunday: Protection, Restoration, and Alignment",
+        "message": "🛡️ “My household is covered. The Lord restores everything lost—time, joy, peace, relationships. I walk in full alignment with His will.”\n"
+                   "📖 Joel 2:25"
     }
 }
 
