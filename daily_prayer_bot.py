@@ -66,9 +66,10 @@ if prayer:
     print(f"TO: {to_whatsapp}")
     print(f"TEMPLATE SID: {content_sid}")
     print(f"CONTENT VARIABLES: {{\"1\":\"{title}\", \"2\":\"{message_body}\"}}")
+    print("Sending message using content SID:", content_sid)
 
 
-    print("📍 Loaded updated script. Media URL is: https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/master/img.png")
+    # print("📍 Loaded updated script. Media URL is: https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/master/img.png")
 
     message = client.messages.create(
         from_='whatsapp:+14155238886',
@@ -78,7 +79,7 @@ if prayer:
             "1": title,
             "2": message_body
         }),
-        media_url=["https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/master/img.png"]
+        # media_url=["https://raw.githubusercontent.com/IkeKobby/whatsapp-prayer-bot/master/img.png"]
     )
 
 

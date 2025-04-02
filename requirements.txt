@@ -1,2 +1,2 @@
-twilio
+twilio>=8.10.0
 python-dotenv
